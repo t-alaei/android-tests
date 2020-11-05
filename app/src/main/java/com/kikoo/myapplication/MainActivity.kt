@@ -30,6 +30,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d(TAG, "Je suis dans onCreate");
 
+        buttonlistener.setOnClickListener {
+            val monIntent = Intent(this, ListenerActivity::class.java)
+            startActivity(monIntent)
+        }
+
+        buttontoast.setOnClickListener {
+            val monIntent = Intent(this, ToastActivity::class.java)
+            startActivity(monIntent)
+        }
+
         button.setOnClickListener {
             val title: String = resources.getString(R.string.chooser_title)
 

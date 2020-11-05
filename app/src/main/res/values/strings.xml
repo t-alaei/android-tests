@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Twilight Fiona : Shiny Samurai</string>
     <string name="chooser_title">Share this text with</string>
+    <string name="dialog_message">NOOOOOOOOOOOOOOOOOONNNN</string>
+    <string name="dialog_title">Ah ouais ?</string>
 </resources>
